@@ -1,7 +1,7 @@
 
 <?php
 
-require "init.php";
+require "database.php";
 
 
 $name="admin";
