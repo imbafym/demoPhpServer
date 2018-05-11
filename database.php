@@ -19,8 +19,6 @@ $connection = new mysqli($server, $username, $password, $db);
 
 if(!$connection){
   echo "Connection not successful v2";
-}else{
-  echo "Connection successful";
 }
 //
 //$db['default'] = array(
