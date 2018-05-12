@@ -5,7 +5,7 @@ require "database.php";
 
 
 //fetch data from table food in the database
-$query = "SELECT * FROM FOOD";
+$query = "SELECT * FROM FOODS";
 $result = mysqli_query($connection, $query);
 
 //create an array
