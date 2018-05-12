@@ -16,8 +16,7 @@ if(mysqli_num_rows($result) > 0) {
        $emparray[] = $row;
     }
 }
-if($emparry)
+
 echo json_encode($emparray);
-else
-echo "cannot show";
+
 ?>
